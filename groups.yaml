@@ -6,6 +6,8 @@ default view:
   entities:
     # - configurator.plex_media_server
     # - configurator.wink
+    - switch.fan
+    - switch.christmas_lights
 
 weather:
   name: Weather

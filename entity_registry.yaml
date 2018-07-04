@@ -38,3 +38,13 @@ media_player.chrome:
   name:
   platform: plex
   unique_id: hl4w6jrbzj5ypwhbq7itznoe
+media_player.galaxy_note8:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: ee55dee0a01ec56-com-plexapp-android
+media_player.galaxy_s8:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: 4943fb2d43bc40d5-com-plexapp-android
