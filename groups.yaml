@@ -1,12 +1,36 @@
+### Groups - can be grouped as cards (view: no) and/or grouped as tabs (view: yes)
+
 default view:
   view: yes
   icon: mdi:home
   entities:
-    - configurator.plex_media_server
-    - configurator.wink
+    # - configurator.plex_media_server
+    # - configurator.wink
 
 weather:
   name: Weather
   view: yes
   entities:
     - camera.weather_radar
+
+media_players:
+  name: Chromecasts
+  view: yes
+  entities:
+    - group.media_players_chromecast_displays
+    - group.media_players_chromecast_speakers
+
+
+#################
+# DEFINE GROUPS #
+#################
+
+## Media players - Chromecast displays and speakers
+media_players_chromecast_displays:
+  - media_player.kitchen_tv
+  - media_player.living_room_display
+  - media_player.mikes_tv
+
+media_players_chromecast_speakers:
+  - media_player.kitchen_speaker
+  - media_player.mikes_speaker

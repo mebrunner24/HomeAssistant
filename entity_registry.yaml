@@ -8,3 +8,33 @@ switch.christmas_lights:
   name:
   platform: wemo
   unique_id: 221737K1300ECB
+media_player.living_room_display:
+  config_entry_id: 63b480e28ca84c0f8f139f3c6b8858a4
+  name:
+  platform: cast
+  unique_id: 9d0a1bf0-cf35-ced2-9469-bee2f6f3242d
+media_player.mikes_tv:
+  config_entry_id: 63b480e28ca84c0f8f139f3c6b8858a4
+  name:
+  platform: cast
+  unique_id: f7135327-d930-34ee-152f-42fe90c68a69
+media_player.kitchen_speaker:
+  config_entry_id: 63b480e28ca84c0f8f139f3c6b8858a4
+  name:
+  platform: cast
+  unique_id: dab844e5-1afd-00e5-b633-822d7b7a2d55
+media_player.kitchen_tv:
+  config_entry_id: 63b480e28ca84c0f8f139f3c6b8858a4
+  name:
+  platform: cast
+  unique_id: d1eaa13b-3293-7416-b504-b796ce9ac5aa
+media_player.mikes_speaker:
+  config_entry_id: 63b480e28ca84c0f8f139f3c6b8858a4
+  name:
+  platform: cast
+  unique_id: 46dcd3f2-dadc-3e9c-d902-8b56133b97aa
+media_player.chrome:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: hl4w6jrbzj5ypwhbq7itznoe

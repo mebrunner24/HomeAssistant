@@ -3,3 +3,6 @@
 home-assistant_v2.db
 home-assistant.log
 secrets.yaml
+.config_entries.json
+entity_registry.yaml
+plex.conf
