@@ -1,0 +1,12 @@
+default view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - configurator.plex_media_server
+    - configurator.wink
+
+weather:
+  name: Weather
+  view: yes
+  entities:
+    - camera.weather_radar

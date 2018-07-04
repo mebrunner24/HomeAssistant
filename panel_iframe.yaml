@@ -1,0 +1,14 @@
+nodered:
+  title: Node-RED
+  icon: mdi:sitemap
+  url: http://10.0.0.38:1880
+
+terminal:
+  title: Terminal
+  icon: mdi:console
+  url: http://10.0.0.38:7681
+
+ide:
+  title: IDE
+  icon: mdi:code-braces
+  url: http://10.0.0.38:8321
