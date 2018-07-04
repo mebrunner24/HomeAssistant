@@ -1,0 +1,10 @@
+switch.fan:
+  config_entry_id:
+  name:
+  platform: wemo
+  unique_id: 221734K01010CD
+switch.christmas_lights:
+  config_entry_id:
+  name:
+  platform: wemo
+  unique_id: 221737K1300ECB
