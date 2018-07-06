@@ -22,6 +22,12 @@ media_players:
     - group.media_players_chromecast_displays
     - group.media_players_chromecast_speakers
 
+mikes_room:
+  name: Mike's Room
+  view: yes
+  entities:
+    - group.mikes_room_lights
+    - group.mikes_room_switches
 
 #################
 # DEFINE GROUPS #
@@ -36,3 +42,22 @@ media_players_chromecast_displays:
 media_players_chromecast_speakers:
   - media_player.kitchen_speaker
   - media_player.mikes_speaker
+
+## Light Groups
+living_room_lights:
+  - light.living_room_south
+  - light.living_room_west
+
+mikes_room_lights:
+  name: Lights
+  entities:
+    - light.desklamp
+    - light.table_lamp
+
+mikes_room_switches:
+  name: Switches
+  entities:
+    - switch.fan
+    - switch.outlet_1
+    - switch.outlet_2
+    - switch.pivot_power_genius
