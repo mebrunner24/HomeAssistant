@@ -1,0 +1,24 @@
+### Configures shortcuts on the left side in the hamburger section
+
+## Node-RED
+## https://github.com/hassio-addons/addon-node-red/blob/v0.2.1/README.md
+nodered:
+  title: Node-RED
+  icon: mdi:sitemap
+  url: http://10.0.0.118:1880
+
+## Terminal for Hass.IO
+## https://github.com/hassio-addons/addon-terminal/blob/v2.5.0/README.md
+terminal:
+  title: Terminal
+  icon: mdi:console
+  url: http://10.0.0.118:7681
+
+## IDE
+## https://github.com/hassio-addons/addon-ide/blob/v0.3.0/README.md
+ide:
+  title: IDE
+  icon: mdi:code-braces
+  url: http://10.0.0.118:8321
+
+  
